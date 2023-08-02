@@ -1,7 +1,7 @@
 # FIP-Health-API-Specs
 ## API Specifications
 
-- [Push API Specs](./Push_API_Ppecifications.json)
+- [Push API Specs](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Push%20API%20Specifications.json)
 
 ## Sample Response
 
