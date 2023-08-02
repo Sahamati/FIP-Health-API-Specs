@@ -21,7 +21,8 @@ This API must have the following items:
   - User Token
 - A mechanism to push the response body onto the callback URL
 - A retry mechanism in case the push fails
-- A counting mechanism to record the timestamp of the push and
+- A counting mechanism to record the timestamp of the push
+- An auth mechanism
 
 ## API Response Specs
 SLAs: [View SLAs](https://docs.google.com/spreadsheets/d/1T4qzwGPfqCxM-910HTZDkkikEezxUrU1/edit?usp=sharing&ouid=102688648237312172000&rtpof=true&sd=true)
