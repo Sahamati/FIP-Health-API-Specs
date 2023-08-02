@@ -5,5 +5,5 @@
 
 ## Sample Response
 
-- [Sample Response JSON](./sample_response.json)
+Sample response.json
 
