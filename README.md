@@ -1,3 +1,9 @@
 # FIP-Health-API-Specs
-API Specs: Push API Specs
-Sample Response: Sample response JSON
+## API Specifications
+
+- [Push API Specs](./push_api_specs.md)
+
+## Sample Response
+
+- [Sample Response JSON](./sample_response.json)
+
