@@ -1,7 +1,7 @@
 # FIP-Health-API-Specs
 ## API Specifications
 
-- [Push API Specs](./push_api_specs.md)
+- Push API Specs
 
 ## Sample Response
 
