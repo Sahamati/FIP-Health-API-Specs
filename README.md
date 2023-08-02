@@ -5,5 +5,5 @@
 
 ## Sample Response
 
-Sample response.json
+- Push API Specifications.json
 
