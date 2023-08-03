@@ -27,7 +27,7 @@ This Solution must have the following items:
 - A mechanism to track successes and failures and logs.
 
 ## API Broad Specs
-API Specs: [View Specs](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Push%20API%20Specifications.json)
+API Specs: [View Specs](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Health%20API%20Specs.json)
 
 Sample JSON: [View Sample](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Sample%20response.json)
 
