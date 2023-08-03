@@ -1,7 +1,7 @@
 # FIP-Health-API-Specs
 ## PRD
 
-- [PRD](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Health%20API%20Specs.json)
+- [PRD](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/PRD.md)
 
 ## API Specifications
 
