@@ -1,7 +1,7 @@
 # FIP-Health-API-Specs
 ## Concept Note
 
-- [PRD](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Concept%20Note.md)
+- [Concept Note](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Concept%20Note.md)
 
 ## API Specifications
 
