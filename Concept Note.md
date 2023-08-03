@@ -10,8 +10,6 @@ FIUs want to access SAANS Data during their user journeys. This allows them to m
 - Real-time alert systems - both central and FIP specific
 
 ## Design
-Since it is going to be a premium service, only subscribed FIPs will have access to the data in the API. 
-
 The solution requires a system that can identify FIUs that have subscribed to the service. These FIUs will expose a URL or an internal database that receives data from the API on a 3-hour frequency. The data will be pushed to this URL. As a default, the range will be hardcoded to 3 hours. The computation will be done every 3 hours as of now but in the future, the freequency of computation can be increased. 
 
 This Solution must have the following items:
