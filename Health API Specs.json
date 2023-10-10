@@ -1,60 +1,60 @@
 {
   "timestamp": "string",
   "data": {
-    "Time_Range": {
+    "time_range": {
       "start_time": "string (UTC timestamp)",
       "end_time": "string (UTC timestamp)"
     },
-    "Summary": {
-      "FIP_ID": {
-        "Discovery and Linking": "string (GOOD/BAD/UNSURE)",
-        "Consent and Notification": "string (GOOD/BAD/UNSURE)",
-        "Data Flow": "string (GOOD/BAD/UNSURE)"
+    "summary": {
+      "fip_id": {
+        "discovery_and_linking": "string (GOOD/BAD/UNSURE)",
+        "consent_and_notification": "string (GOOD/BAD/UNSURE)",
+        "data_flow": "string (GOOD/BAD/UNSURE)"
       },
-      "FIP_ID": {
-        "Discovery and Linking": "string (GOOD/BAD/UNSURE)",
-        "Consent and Notification": "string (GOOD/BAD/UNSURE)",
-        "Data Flow": "string (GOOD/BAD/UNSURE)"
+      "fip_id": {
+        "discovery_and_linking": "string (GOOD/BAD/UNSURE)",
+        "consent_and_notification": "string (GOOD/BAD/UNSURE)",
+        "data_flow": "string (GOOD/BAD/UNSURE)"
       }
     },
-    "FIPs": {
-      "FIP_ID": {
-        "Discovery": {
+    "fips": {
+      "fip_id": {
+        "discovery": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "Linking": {
+        "linking": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "Confirm Linking": {
+        "confirm_linking": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "Consent": {
+        "consent": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "FI Request": {
+        "fi_request": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "FI Fetch": {
+        "fi_fetch": {
           "status": "string (GOOD/BAD/UNSURE)",
           "p50_response_time": "integer",
           "success_percentage": "float"
         },
-        "FI Notification": {
+        "fi_notification": {
           "status": "string (GOOD/BAD/UNSURE)",
           "success_percentage": "float"
         }
       }
     },
-    "SLA_Link": "string (URL)"
+    "sla_link": "string (URL)"
   }
 }
