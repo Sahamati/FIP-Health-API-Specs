@@ -4,73 +4,73 @@
       "FIP-ID-1": {
         "discovery": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": "Float",
-          "success_percentage": Float
+          "p50_response_time": ""Float"",
+          "success_percentage": "Float"
         },
         "linking": {
             "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "confirm_linking": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "consent": {
            "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "fi_request": {
            "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "fi_fetch": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "fi_notification": {
           "status": "GOOD/BAD/UNSURE",
-          "success_percentage": Float
+          "success_percentage": "Float"
         }
       },
       "FIP-ID-N": {
         "discovery": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "linking": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "confirm_linking": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "consent": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "fi_request": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float
+          "p50_response_time": "Float",
+          "success_percentage": "Float"
         },
         "fi_fetch": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
-          "success_percentage": Float0
+          "p50_response_time": "Float",
+          "success_percentage": "Float"0
         },
         "fi_notification": {
           "status": "GOOD/BAD/UNSURE",
-          "success_percentage": Float
+          "success_percentage": "Float"
         }
       }
     },
@@ -87,8 +87,8 @@
       }
     },
     "time_range": {
-      "start_time": ISO 8601 timestamp in UTC,
-      "end_time": ISO 8601 timestamp in UTC
+      "start_time": "ISO 8601 timestamp in UTC",
+      "end_time": "ISO 8601 timestamp in UTC"
     }
   }
 }
