@@ -1,60 +1,94 @@
 {
-  "timestamp": "string",
   "data": {
-    "time_range": {
-      "start_time": "string (UTC timestamp)",
-      "end_time": "string (UTC timestamp)"
-    },
-    "summary": {
-      "fip_id": {
-        "discovery_and_linking": "string (GOOD/BAD/UNSURE)",
-        "consent_and_notification": "string (GOOD/BAD/UNSURE)",
-        "data_flow": "string (GOOD/BAD/UNSURE)"
-      },
-      "fip_id": {
-        "discovery_and_linking": "string (GOOD/BAD/UNSURE)",
-        "consent_and_notification": "string (GOOD/BAD/UNSURE)",
-        "data_flow": "string (GOOD/BAD/UNSURE)"
-      }
-    },
     "fips": {
-      "fip_id": {
+      "FIP-ID-1": {
         "discovery": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "linking": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+            "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "confirm_linking": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "consent": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+           "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "fi_request": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+           "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "fi_fetch": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "p50_response_time": "integer",
-          "success_percentage": "float"
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
         },
         "fi_notification": {
-          "status": "string (GOOD/BAD/UNSURE)",
-          "success_percentage": "float"
+          "status": "GOOD/BAD/UNSURE",
+          "success_percentage": Float
+        }
+      },
+      "FIP-ID-N": {
+        "discovery": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
+        },
+        "linking": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
+        },
+        "confirm_linking": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
+        },
+        "consent": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
+        },
+        "fi_request": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float
+        },
+        "fi_fetch": {
+          "status": "GOOD/BAD/UNSURE",
+          "p50_response_time": Float,
+          "success_percentage": Float0
+        },
+        "fi_notification": {
+          "status": "GOOD/BAD/UNSURE",
+          "success_percentage": Float
         }
       }
     },
-    "sla_link": "string (URL)"
+    "summary": {
+      "FIP-ID-1": {
+        "discovery_and_linking": "GOOD/BAD/UNSURE",
+        "consent_and_notification": "GOOD/BAD/UNSURE",
+        "data_flow": "GOOD/BAD/UNSURE"
+      },
+      "FIP-ID-N": {
+        "discovery_and_linking": "GOOD/BAD/UNSURE",
+        "consent_and_notification": "GOOD/BAD/UNSURE",
+        "data_flow": "GOOD/BAD/UNSURE"
+      }
+    },
+    "time_range": {
+      "start_time": ISO 8601 timestamp in UTC,
+      "end_time": ISO 8601 timestamp in UTC
+    }
   }
 }
