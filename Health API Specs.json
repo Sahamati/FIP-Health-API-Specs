@@ -4,7 +4,7 @@
       "FIP-ID-1": {
         "discovery": {
           "status": "GOOD/BAD/UNSURE",
-          "p50_response_time": Float,
+          "p50_response_time": "Float",
           "success_percentage": Float
         },
         "linking": {
