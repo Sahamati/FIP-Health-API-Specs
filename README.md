@@ -10,3 +10,7 @@
 ## Sample Response
 
 - [Sample Response JSON](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Sample%20response.json)
+
+## Sahamati Public Certificate
+
+- [Sahamati Public Certificate](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Sample%20response.json)
