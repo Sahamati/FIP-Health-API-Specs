@@ -25,7 +25,7 @@ The solution requires a system that can identify FIUs that have subscribed to th
 3. **Authenticate the Request:**
    To further authenticate the request from the SAANS health API:
    - The API sends an `Authorization` header in the request with a bearer token.
-   - Validate the token with the Sahamati token service’s public certificate. You can find the certificate [here](#link-to-certificate).
+   - Validate the token with the Sahamati token service’s public certificate. The validation works same way as the signing of the API request body in the AA Specs
    - Refer to [this guide](#link-to-validation-guide) for instructions on validating JWT with a public key.
 
 4. **Fill in the Form:**
