@@ -1,4 +1,4 @@
-# FIP Health API V0.0.9 (BETA)
+# FIP Health API V1.0.0
 
 ## Introduction
 FIUs/TSPs want to access SAANS Data during their user journeys. This allows them to manage the user expectations and Lending FIUgate the user through the AA flow depending upon the health status of the APIs. This could lead to a higher success percentage by only raising a consent request when the likelihood of the success of the consent is much higher. 
