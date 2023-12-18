@@ -1,4 +1,4 @@
-# FIP Health API V1.0.0
+# FIP Health API V0.0.9 (BETA)
 
 ## Introduction
 FIUs/TSPs want to access SAANS Data during their user journeys. This allows them to manage the user expectations and Lending FIUgate the user through the AA flow depending upon the health status of the APIs. This could lead to a higher success percentage by only raising a consent request when the likelihood of the success of the consent is much higher. 
@@ -25,7 +25,7 @@ The solution requires a system that can identify FIUs that have subscribed to th
 3. **Authenticate the Request:**
    To further authenticate the request from the SAANS health API:
    - The API sends an `Authorization` header in the request with a bearer token.
-   - Validate the token with the Sahamati token service’s public certificate. You can find the certificate [here](#link-to-certificate).
+   - Validate the token with the Sahamati token service’s public certificate. The validation works same way as the signing of the API request body in the AA Specs
    - Refer to [this guide](#link-to-validation-guide) for instructions on validating JWT with a public key.
 
 4. **Fill in the Form:**

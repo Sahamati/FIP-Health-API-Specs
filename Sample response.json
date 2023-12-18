@@ -1,96 +1,88 @@
 {
-  "timestamp": "2023-08-02T03:00:00Z",
   "data": {
-    "Time_Range": {
-      "start_time": "2023-08-02T00:00:00Z",
-      "end_time": "2023-08-02T03:00:00Z"
-    },
-    "Summary": {
+    "fips": {
       "sbi-fip": {
-        "Discovery and Linking": "BAD",
-        "Consent and Notification": "UNSURE",
-        "Data Flow": "GOOD"
-      },
-      "HDFC-FIP": {
-        "Discovery and Linking": "GOOD",
-        "Consent and Notification": "GOOD",
-        "Data Flow": "GOOD"
-      }
-    },
-    "FIPs": {
-      "sbi-fip": {
-        "Discovery": {
+        "discovery": {
           "status": "GOOD",
-          "p50_response_time": 50,
-          "success_percentage": 99
+          "p50_response_time": 929.94,
+          "success_percentage": 97.42
         },
-        "Linking": {
-          "status": "BAD",
-          "p50_response_time": 200,
-          "success_percentage": 80
-        },
-        "Confirm Linking": {
-          "status": "UNSURE",
-          "p50_response_time": 100,
-          "success_percentage": 95
-        },
-        "Consent": {
+        "linking": {
           "status": "GOOD",
-          "p50_response_time": 40,
-          "success_percentage": 98
+          "p50_response_time": 450.3,
+          "success_percentage": 97.34
         },
-        "FI Request": {
+        "confirm_linking": {
           "status": "GOOD",
-          "p50_response_time": 30,
-          "success_percentage": 99.5
+          "p50_response_time": 338.79,
+          "success_percentage": 96.41
         },
-        "FI Fetch": {
+        "consent": {
           "status": "GOOD",
-          "p50_response_time": 35,
-          "success_percentage": 99
+          "p50_response_time": 313.45,
+          "success_percentage": 98.26
         },
-        "FI Notification": {
+        "fi_request": {
           "status": "GOOD",
-          "success_percentage": 93
-        }
-      },
-      "HDFC-FIP": {
-        "Discovery": {
-          "status": "GOOD",
-          "p50_response_time": 60,
-          "success_percentage": 98
+          "p50_response_time": 272.32,
+          "success_percentage": 98.545
         },
-        "Linking": {
+        "fi_fetch": {
           "status": "GOOD",
-          "p50_response_time": 150,
-          "success_percentage": 90
-        },
-        "Confirm Linking": {
-          "status": "GOOD",
-          "p50_response_time": 80,
-          "success_percentage": 97
-        },
-        "Consent": {
-          "status": "GOOD",
-          "p50_response_time": 45,
-          "success_percentage": 97.5
-        },
-        "FI Request": {
-          "status": "GOOD",
-          "p50_response_time": 35,
-          "success_percentage": 98
-        },
-        "FI Fetch": {
-          "status": "GOOD",
-          "p50_response_time": 40,
+          "p50_response_time": 383.01,
           "success_percentage": 98.5
         },
-        "FI Notification": {
+        "fi_notification": {}
+      },
+      "HDFC-FIP": {
+        "discovery": {
           "status": "GOOD",
-          "success_percentage": 92
-        }
+          "p50_response_time": 350.29,
+          "success_percentage": 100.0
+        },
+        "linking": {
+          "status": "GOOD",
+          "p50_response_time": 823.83,
+          "success_percentage": 100.0
+        },
+        "confirm_linking": {
+          "status": "GOOD",
+          "p50_response_time": 490.79,
+          "success_percentage": 100.0
+        },
+        "consent": {
+          "status": "GOOD",
+          "p50_response_time": 172.54500000000002,
+          "success_percentage": 100.0
+        },
+        "fi_request": {
+          "status": "GOOD",
+          "p50_response_time": 217.94,
+          "success_percentage": 100.0
+        },
+        "fi_fetch": {
+          "status": "GOOD",
+          "p50_response_time": 246.6,
+          "success_percentage": 100.0
+        },
+        "fi_notification": {}
       }
     },
-    "SLA_Link": "https://docs.google.com/spreadsheets/d/1T4qzwGPfqCxM-910HTZDkkikEezxUrU1/edit?usp=sharing&ouid=102688648237312172000&rtpof=true&sd=true"
+    "summary": {
+      "sbi-fip": {
+        "discovery_and_linking": "GOOD",
+        "consent_and_notification": "UNSURE",
+        "data_flow": "GOOD"
+      },
+      "HDFC-FIP": {
+        "discovery_and_linking": "GOOD",
+        "consent_and_notification": "UNSURE",
+        "data_flow": "GOOD"
+      }
+    },
+    "time_range": {
+      "start_time": "2023-12-01T05:45:00.036796",
+      "end_time": "2023-12-01T08:45:00.036796"
+    }
   }
 }
