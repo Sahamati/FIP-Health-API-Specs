@@ -1,5 +1,5 @@
 # FIP-Health-API-Specs
-## Release Note(BETA)
+## Release Note
 
 - [Release Note(Beta)](https://github.com/Sahamati/FIP-Health-API-Specs/blob/main/Health%20API%20Specs.json)
 
